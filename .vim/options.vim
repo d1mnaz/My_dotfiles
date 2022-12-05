@@ -158,16 +158,28 @@ g:netrw_localcopydircmd = 'cp -r'
 set grepprg=rg\ --vimgrep\ --smart-case\ --hidden\ --follow\ --max-columns=500\ -i
 set grepformat=%f:%l:%c:%m
 
-set completeopt=menuone,noselect       # Insert mode completion:
+# set completeopt=menuone,noselect       # Insert mode completion:
                                        # menuone   → always show menu, even when there is 1 match.
                                        # noselect  → don't select an option when starting.
-set completepopup=highlight:Pmenu,border:off  # Options for preview popup in completion.
+# set completepopup=highlight:Pmenu,border:off  # Options for preview popup in completion.
 set pumheight=20                       # Don't make completion menu too high.
 
 
-set omnifunc=LspOmniFunc
+# set omnifunc=LspOmniFunc
 
 # Diffs are shown side-by-side not above/below
 set diffopt=vertical
 # Always show the sign column
-set signcolumn=no
+# set signcolumn=no
+
+# Disable unwanted built-in plugins
+g:loaded_2html_plugin = 1
+g:loaded_getscriptPlugin = 1
+g:loaded_logipat = 1
+g:loaded_rrhelper = 1
+g:loaded_gzip = 1
+g:loaded_tarPlugin = 1 | g:loaded_tar = 1
+g:loaded_zipPlugin = 1 | g:loaded_zip = 1
+g:loaded_vimballPlugin = 1 | g:loaded_vimball = true
+# g:loaded_netrwPlugin = 1 | g:loaded_netrw = true
+

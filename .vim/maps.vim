@@ -106,4 +106,3 @@ nnoremap <leader>dn :LspDiagNext<cr>
 nnoremap <leader>dp :LspDiagPrev<cr>
 nnoremap <leader>df :LspReferences<cr>
 nnoremap <leader>dr :LspRename<cr>
-

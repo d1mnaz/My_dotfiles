@@ -119,11 +119,6 @@ let lspServers = [
 \    path: '/usr/lib/node_modules/typescript-language-server/lib/cli.js',
 \    args: ['--stdio']
 \      },
-\      #{
-\   filetype: ['javascript', 'typescript'],
-\   path: '/usr/bin/typescript-language-server',
-\   args: ['--stdio']
-\      },
 \     #{
 \    filetype: ['python'],
 \    path: '/usr/bin/pylsp',
@@ -139,8 +134,6 @@ let lspServers = [
 autocmd VimEnter * call LspAddServer(lspServers)
 let lspOpts = {'autoHighlightDiags': v:true,
       \'autoComplete': v:false,
-      \'showDiagOnStatusLine': v:true,
-      \'noNewlineInCompletion': v:true,
       \'outlineOnRight': v:true
       \}
 autocmd VimEnter * call LspOptionsSet(lspOpts)

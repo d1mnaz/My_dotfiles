@@ -34,7 +34,6 @@ g:closetag_regions = {
      'javascript.jsx': 'jsxRegion',
      }
 
-
 #-------------------------------Vim9-fuzzy plugin-------------------------------
 # Enable vim9-fuzzy
 packadd! vim9-fuzzy
@@ -44,5 +43,3 @@ if len(git_root) > 0
     proj_dir = git_root
 endif
 g:vim9_fuzzy_proj_dir = proj_dir
-
-

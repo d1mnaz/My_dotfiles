@@ -35,7 +35,7 @@ hi Folded guifg=#00008b guibg=#dadada gui=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#f0f0f0 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE guibg=#dadada gui=NONE cterm=NONE
 hi CursorLineNr guifg=NONE guibg=#dadada gui=NONE cterm=NONE
-hi QuickFixLine guifg=#202020 guibg=#ffff00 gui=NONE cterm=NONE
+hi QuickFixLine guifg=#202020 guibg=#ffff4c gui=NONE cterm=NONE
 hi StatusLine guifg=#ffffff guibg=#31a354 gui=bold cterm=bold
 hi StatusLineNC guifg=#ffffff guibg=#a8a8a8 gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#202020 guibg=#90ee90 gui=bold cterm=bold
@@ -51,7 +51,7 @@ hi TabLineSel guifg=#202020 guibg=#ffffff gui=bold cterm=bold
 hi ToolbarLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ToolbarButton guifg=NONE guibg=#a8a8a8 gui=bold cterm=bold
 hi NonText guifg=#add8e6 guibg=#ffffff gui=NONE cterm=NONE
-hi SpecialKey guifg=#2aa1b3 guibg=NONE gui=NONE cterm=NONE
+hi SpecialKey guifg=#2a7bde guibg=NONE gui=NONE cterm=NONE
 hi Visual guifg=#202020 guibg=#a8a8a8 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE guibg=NONE gui=bold,underline ctermfg=NONE ctermbg=NONE cterm=underline
 hi LineNr guifg=#767676 guibg=NONE gui=NONE cterm=NONE
@@ -85,15 +85,20 @@ hi Constant guifg=#a07070 guibg=NONE gui=NONE cterm=NONE
 hi Number guifg=#a07070 guibg=NONE gui=bold cterm=bold
 hi Float guifg=#a07070 guibg=NONE gui=bold cterm=bold
 hi PreProc guifg=#6a0dad guibg=NONE gui=NONE cterm=NONE
-hi Special guifg=#ff8c00 guibg=NONE gui=NONE cterm=NONE
+hi Special guifg=#dc6816 guibg=NONE gui=NONE cterm=NONE
 hi SpecialChar guifg=#00008b guibg=NONE gui=NONE cterm=NONE
 hi Directory guifg=#2aa1b3 guibg=NONE gui=bold cterm=bold
 hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Title guifg=#006400 guibg=NONE gui=bold cterm=bold
-hi DiffAdd guifg=#ffffff guibg=#5f875f gui=NONE cterm=NONE
-hi DiffChange guifg=#ffffff guibg=#5f87af gui=NONE cterm=NONE
-hi DiffText guifg=#202020 guibg=#c6c6c6 gui=NONE cterm=NONE
-hi DiffDelete guifg=#ffffff guibg=#af5faf gui=NONE cterm=NONE
+" hi DiffAdd guifg=#ffffff guibg=#5f875f gui=NONE cterm=NONE
+" hi DiffChange guifg=#ffffff guibg=#5f87af gui=NONE cterm=NONE
+" hi DiffText guifg=#202020 guibg=#c6c6c6 gui=NONE cterm=NONE
+hi DiffDelete guifg=#ffffff guibg=#a347ba gui=NONE cterm=NONE
+
+hi DiffAdd                      guibg=#90ee90
+hi DiffChange                   guibg=#dad7ff
+" hi DiffDelete   guifg=#c8c8c8   guibg=#ffffff   gui=none
+hi DiffText     guifg=#cc0000   guibg=#ffff4c   gui=none
 
 if s:t_Co >= 256
   hi! link Terminal Normal
