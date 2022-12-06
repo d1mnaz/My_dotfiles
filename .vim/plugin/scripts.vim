@@ -134,7 +134,14 @@ let lspServers = [
 autocmd VimEnter * call LspAddServer(lspServers)
 let lspOpts = {'autoHighlightDiags': v:true,
       \'autoComplete': v:false,
-      \'outlineOnRight': v:true
+      \'outlineOnRight': v:true,
+      \'noDiagHoverOnLine': v:false,
+      \'noNewlineInCompletion': v:true,
+      \'outlineWinSize': 40,
+      \'showSignature': v:false,
+      \'showDiagOnStatusLine': v:false,
+      \'showDiagInPopup': v:true,
+      \'showInlayHints': v:true,
       \}
 autocmd VimEnter * call LspOptionsSet(lspOpts)
 
