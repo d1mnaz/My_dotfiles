@@ -1,0 +1,747 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/dimon/
+	..
+1506441064
+'b
+	/home/dimon/bin/
+	..
+1506441064
+'h
+	/home/dimon/
+	..
+1506441064
+
+# Bookmarks:
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/dimon/projects
+	aiko
+1
+d/home/dimon
+	projects
+2
+d/home/dimon/projects
+	aiko
+1
+d/home/dimon/projects/aiko
+	blog
+2
+d/home/dimon/projects/aiko/blog
+	templates
+3
+d/home/dimon/projects/aiko/blog/templates
+	blog
+1
+d/home/dimon/projects/aiko/blog/templates/blog
+	category.html
+1
+d/home/dimon/projects/aiko/blog/templates
+	blog
+1
+d/home/dimon/projects/aiko/blog
+	templatetags
+4
+d/home/dimon/projects/aiko/blog/templatetags
+	__init__.py
+2
+d/home/dimon/projects/aiko/blog
+	templates
+3
+d/home/dimon/projects/aiko/blog/templates
+	blog
+1
+d/home/dimon/projects/aiko/blog/templates/blog
+	..
+0
+d/home/dimon/projects/aiko/blog/templates
+	blog
+1
+d/home/dimon/projects/aiko/blog
+	templates
+3
+d/home/dimon/projects/aiko
+	templates
+5
+d/home/dimon/projects/aiko/templates
+	inc
+1
+d/home/dimon/projects/aiko/templates/inc
+	..
+0
+d/home/dimon/projects/aiko/templates
+	..
+0
+d/home/dimon/projects/aiko
+	aiko
+1
+d/home/dimon/projects/aiko/aiko
+	settings.py
+5
+d/home/dimon/projects/aiko
+	media
+3
+d/home/dimon/projects
+	quiltest
+6
+d/home/dimon/projects/quiltest
+	quill
+1
+d/home/dimon/projects/quiltest/quill
+	quill
+2
+d/home/dimon/projects/quiltest/quill/quill
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	quil
+1
+d/home/dimon/projects/quiltest/quill/quil
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	quill
+2
+d/home/dimon/projects/quiltest/quill/quill
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	quil
+1
+d/home/dimon/projects/quiltest/quill/quil
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	quill
+2
+d/home/dimon/projects/quiltest/quill/quill
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	quil
+1
+d/home/dimon/projects/quiltest/quill/quil
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	..
+0
+d/home/dimon/projects/quiltest
+	quill
+1
+d/home/dimon/projects/quiltest/quill
+	..
+0
+d/home/dimon/projects/quiltest
+	..
+0
+d/home/dimon/projects
+	quiltest
+6
+d/home/dimon/projects/quiltest
+	quill
+1
+d/home/dimon/projects/quiltest/quill
+	..
+0
+d/home/dimon/projects/quiltest
+	quill
+1
+d/home/dimon/projects/quiltest/quill
+	..
+0
+d/home/dimon/projects/quiltest
+	quill
+2
+d/home/dimon/projects/quiltest/quill
+	..
+0
+d/home/dimon/projects/quiltest
+	.venv
+1
+d/home/dimon/projects/quiltest/.venv
+	lib
+3
+d/home/dimon/projects/quiltest/.venv/lib
+	python3.8
+1
+d/home/dimon/projects/quiltest/.venv/lib/python3.8
+	site-packages
+1
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages
+	django_quilljs-0.0.2-py3.8.egg-info
+9
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/django_quilljs-0.0.2-py3.8.egg-info
+	..
+0
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages
+	quilljs
+15
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/quilljs
+	templates
+4
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/quilljs/templates
+	quill
+1
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/quilljs/templates/quill
+	toolbars
+1
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/quilljs/templates/quill/toolbars
+	..
+0
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/quilljs/templates/quill
+	..
+0
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/quilljs/templates
+	..
+0
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages/quilljs
+	apps.py
+8
+d/home/dimon/projects/quiltest/.venv/lib/python3.8/site-packages
+	quilljs
+15
+d/home/dimon/projects/quiltest/.venv/lib/python3.8
+	site-packages
+1
+d/home/dimon/projects/quiltest/.venv/lib
+	python3.8
+1
+d/home/dimon/projects/quiltest/.venv
+	lib
+3
+d/home/dimon/projects/quiltest
+	.venv
+1
+d/home/dimon/projects
+	quiltest
+6
+d/home/dimon/projects/quiltest
+	quill
+2
+d/home/dimon/projects/quiltest/quill
+	quil
+1
+d/home/dimon/projects/quiltest/quill/quil
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	quill
+2
+d/home/dimon/projects/quiltest/quill/quill
+	..
+0
+d/home/dimon/projects/quiltest/quill
+	quil
+1
+d/home/dimon/projects/quiltest/quill/quil
+	admin.py
+4
+d/home/dimon/projects
+	..
+0
+d/home/dimon
+	.local
+14
+d/home/dimon/.local
+	share
+3
+d/home/dimon/.local/share
+	applications
+5
+d/home/dimon/.local/share/applications
+	..
+0
+d/home/dimon/.local/share
+	luakit
+11
+d/home/dimon/.local/share/luakit
+	..
+0
+d/home/dimon/.local/share
+	applications
+5
+d/home/dimon/.local/share/applications
+	..
+0
+d/home/dimon/.local/share
+	applications
+5
+d/home/dimon/.local/share/applications
+	..
+0
+d/home/dimon/.local/share
+	..
+0
+d/home/dimon/.local
+	bin
+1
+d/home/dimon/.local/bin
+	..
+0
+d/home/dimon/.local
+	share
+3
+d/home/dimon/.local/share
+	applications
+5
+d/home/dimon/.local/share/applications
+	playonlinux-Microsoft Excel 2007.desktop
+4
+d/home/dimon/.local/share
+	TelegramDesktop
+3
+d/home/dimon/.local
+	bin
+1
+d/home/dimon/.local/bin
+	playonlinux-Microsoft Excel 2007.desktop
+22
+d/home/dimon/.local
+	bin
+1
+d/home/dimon
+	.local
+14
+d/home
+	dimon
+1
+d/
+	etc
+4
+d/etc
+	bindresvport.blacklist
+39
+d/
+	root
+11
+d
+
+# Right window history (oldest to newest):
+D/home/dimon/projects/TDD/superlists
+	lists
+2
+D/home/dimon/projects/TDD/superlists/lists
+	urls.py
+10
+D/home/dimon/projects/TDD/superlists
+	lists
+2
+D/home/dimon/projects/TDD
+	superlists
+2
+D/home/dimon/projects
+	TDD
+1
+D/home/dimon
+	.config
+4
+D/home/dimon/.config
+	qutebrowser
+31
+D/home/dimon/.config/qutebrowser
+	config.py
+4
+D/home/dimon/.config
+	qutebrowser
+31
+D/home/dimon
+	.config
+4
+D/home
+	dimon
+1
+D/home/dimon
+	projects
+2
+D/home/dimon/projects
+	aiko
+1
+D/home/dimon/projects/aiko
+	aiko
+1
+D/home/dimon/projects/aiko/aiko
+	aiko
+1
+D/home/dimon/projects/aiko/aiko/aiko
+	static
+2
+D/home/dimon/projects/aiko/aiko/aiko/static
+	..
+0
+D/home/dimon/projects/aiko/aiko/aiko
+	static
+2
+D/home/dimon/projects/aiko/aiko
+	aiko
+1
+D/home/dimon/projects/aiko/aiko/aiko
+	static
+2
+D/home/dimon/projects/aiko/aiko
+	static
+2
+D/home/dimon/projects/aiko
+	templates
+4
+D/home/dimon/projects/aiko/templates
+	index.html
+2
+D/home/dimon/projects/aiko
+	templates
+4
+D/home/dimon/projects/aiko/templates
+	base.html
+1
+D/home/dimon/projects/aiko
+	blog
+2
+D/home/dimon/projects/aiko/blog
+	templates
+3
+D/home/dimon/projects/aiko/blog/templates
+	blog
+1
+D/home/dimon/projects/aiko/blog/templates/blog
+	..
+0
+D/home/dimon/projects/aiko/blog/templates
+	..
+0
+D/home/dimon/projects/aiko/blog
+	..
+0
+D/home/dimon/projects/aiko
+	static
+3
+D/home/dimon/projects/aiko/static
+	..
+0
+D/home/dimon/projects/aiko
+	templates
+4
+D/home/dimon/projects/aiko/templates
+	..
+0
+D/home/dimon/projects/aiko
+	static
+3
+D/home/dimon/projects/aiko/static
+	..
+0
+D/home/dimon/projects/aiko
+	aiko
+1
+D/home/dimon/projects/aiko/aiko
+	static
+2
+D/home/dimon/projects/aiko/aiko/static
+	..
+0
+D/home/dimon/projects/aiko/aiko
+	..
+0
+D/home/dimon/projects/aiko
+	blog
+2
+D/home/dimon/projects/aiko/blog
+	templates
+3
+D/home/dimon/projects/aiko/blog/templates
+	blog
+1
+D/home/dimon/projects/aiko/blog/templates/blog
+	index.html_my
+2
+D/home/dimon/projects/aiko/blog/templates
+	blog
+1
+D/home/dimon/projects/aiko/blog
+	templates
+3
+D/home/dimon/projects/aiko
+	static
+3
+D/home/dimon/projects/aiko/static
+	assets
+2
+D/home/dimon/projects/aiko/static/assets
+	css
+1
+D/home/dimon/projects/aiko/static/assets/css
+	main.css
+3
+D/home/dimon/projects/aiko/static
+	..
+0
+D/home/dimon/projects/aiko
+	static
+4
+D/home/dimon/projects
+	aiko
+1
+D/home/dimon/projects/aiko
+	blog
+2
+D/home/dimon/projects/aiko/blog
+	models.py
+8
+D/home/dimon/projects/aiko
+	blog
+2
+D/home/dimon/projects
+	aiko
+1
+D/home/dimon
+	projects
+3
+D/home
+	dimon
+1
+D/
+	usr
+17
+D/usr
+	share
+9
+D/usr/share
+	applications
+10
+D/usr/share/applications
+	..
+0
+D/usr/share
+	applications
+10
+D/usr
+	share
+9
+D/
+	usr
+17
+D/usr
+	share
+9
+D/usr/share
+	vifm
+39
+D/usr/share/vifm
+	colors
+1
+D/usr/share/vifm/colors
+	..
+0
+D/usr/share/vifm
+	colors
+1
+D/usr/share
+	vifm
+39
+D/usr
+	share
+9
+D/
+	home
+4
+D/home
+	dimon
+1
+D/home/dimon
+	.config
+7
+D/home/dimon/.config
+	calibre
+4
+D/home/dimon/.config/calibre
+	..
+0
+D/home/dimon/.config
+	qutebrowser
+35
+D/home/dimon/.config/qutebrowser
+	..
+0
+D/home/dimon/.config
+	qutebrowser
+35
+D/home/dimon
+	.mozilla
+17
+D/home/dimon/.mozilla
+	firefox
+2
+D/home/dimon/.mozilla/firefox
+	v3epb3ng.default-release
+4
+D/home/dimon/.mozilla/firefox/v3epb3ng.default-release
+	..
+0
+D/home/dimon/.mozilla/firefox
+	gfyx1xxw.default-1525738286918
+3
+D/home/dimon/.mozilla/firefox/gfyx1xxw.default-1525738286918
+	storage
+15
+D/home/dimon/.mozilla/firefox/gfyx1xxw.default-1525738286918/storage
+	..
+0
+D/home/dimon/.mozilla/firefox/gfyx1xxw.default-1525738286918
+	logins.json
+38
+D/home/dimon/.mozilla/firefox
+	gfyx1xxw.default-1525738286918
+3
+D/home/dimon/.mozilla
+	firefox
+2
+D/home/dimon
+	.mozilla
+17
+D/home
+	dimon
+1
+D/
+	home
+4
+D/home
+	dimon
+1
+D/home/dimon
+	projects
+2
+D/home/dimon/projects
+	aiko
+1
+D/home/dimon/projects/aiko
+	aiko
+1
+D/home/dimon/projects/aiko/aiko
+	settings.py
+5
+D
+
+# Command line history (oldest to newest):
+:!vim .spotifyd
+:!vim spotifyd.service
+:colorscheme astrell
+:colorscheme desert
+:colorscheme reicheltd-light
+:colorscheme lucius
+:colorscheme snowwhite
+:!sudo vim textclock.lua
+:!sudo vim keyboardlayout.lua
+:! mv moc/ .moc
+:! chmod 755 config
+:!mv awesome/ awesome_rr
+:!mv awesome_my/ awesome
+:colorscheme
+:set lsview
+:set lsoptions=transposed
+:help view
+:set millerview
+:marks
+:viewtree
+:views
+:e easylist.txt
+:du
+:dunmap
+:df
+:!sudo vim follow.lua
+:!vim blogpost32.html
+:! sudo chmod 777 activate.sh
+:!sudo vim theme.lua
+:e config.py
+:tree
+:!make install
+:!sudo vim core.lua
+:!mkdir spotifyd
+:colorscheme zenburn
+:filetype FUSE_MOUNT|fuse-zip alyans.ftp ftp-mount
+:!mkdir static
+:!exx Bolt\ Free\ Website\ Template\ -\ Free-CSS.com.zip
+:help
+:view
+:wq
+:!wget https://raw.githubusercontent.com/lorenrogers/calibre-themes/master/solarized-dark.css
+:q
+
+# Search history (oldest to newest):
+/st
+/moc
+/luaki
+/xdg
+/qute
+/vif
+/vifm
+
+# Prompt history (oldest to newest):
+pIMG_0007
+plxsession.bak
+p.xinitrcbak
+pconfig.py_bak
+pconfig.py
+pbase_my.html
+pindex_my.html
+pindex.html_bak
+pbase.html_bak
+pbase.html_my
+pbase.html
+pindex.html_my
+pindex.html
+pmain.css_bak
+pi_dark.css
+pdark.css
+
+# Local filter history (oldest to newest):
+|jpg
+
+# Registers:
+""/home/dimon/.local/bin/playonlinux-Microsoft Excel 2007.desktop
+""/home/dimon/.local/bin/playonlinux-Microsoft Powerpoint 2007.desktop
+""/home/dimon/.local/bin/playonlinux-Microsoft Word 2007.desktop
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/dimon/.local/share/vifm/Trash/000_vim-commentary
+	/home/dimon/.vim/pack/minpac/start/vim-commentary
+t/home/dimon/.local/share/vifm/Trash/000_config.py
+	/home/dimon/.config/qutebrowser/config.py
+t/home/dimon/.local/share/vifm/Trash/000_alyans.ftp
+	/home/dimon/.config/vifm/alyans.ftp
+t/home/dimon/.local/share/vifm/Trash/000_ftp-mount
+	/home/dimon/ftp-mount
+t/home/dimon/.local/share/vifm/Trash/000_tests.py
+	/home/dimon/projects/TDD/superlists/lists/tests.py
+t/home/dimon/.local/share/vifm/Trash/000_base.html
+	/home/dimon/projects/aiko/templates/base.html
+t/home/dimon/.local/share/vifm/Trash/000_category.html
+	/home/dimon/projects/aiko/blog/category.html
+t/home/dimon/.local/share/vifm/Trash/000_templatetags
+	/home/dimon/projects/aiko/blog/templatetags
+t/home/dimon/.local/share/vifm/Trash/000_menu_tpl.html
+	/home/dimon/projects/aiko/blog/templates/blog/menu_tpl.html
+t/home/dimon/.local/share/vifm/Trash/000_inc
+	/home/dimon/projects/aiko/templates/inc
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].1
+]F
+s0

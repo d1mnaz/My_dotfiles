@@ -1,0 +1,316 @@
+
+
+"_____________Color Themes__________"
+
+if exists('+termguicolors')
+  let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
+
+" Включаем 256 цветов в терминале
+set t_Co=256
+
+colorscheme hara
+set background=light
+
+" настройка satstusLine
+set laststatus=2
+set statusline=
+set statusline+=%2*[%n%M%H%R%W]%*
+set statusline+=%#ColorColumn#
+set statusline+=\ %f
+set statusline+=%#ColorColumn#
+set statusline+=%=
+set statusline+=%#LineNr#
+set statusline+=\ %y
+set statusline+=\ %p%%
+set statusline+=%#Column#
+set statusline+=\ %l:%c
+set statusline+=
+
+"_____________NetRw File explorer__________"
+
+
+let g:netrw_list_hide=netrw_gitignore#Hide()
+let g:netrw_list_hide='.*\.swp$,.DS_Store,*/tmp/*,*.so,*.swp,*.zip,*.git,^\.\.\=/\=$'
+let g:netrw_list_hide ='^\.\.\=/\=$,.DS_Store,.idea,.git,__pycache__,venv,node_modules,*\.o,*\.pyc,.*\.swp'
+let g:netrw_keepdir = 0
+let g:netrw_banner = 0
+let g:netrw_localcopydircmd = 'cp -r'
+
+function! NetrwMapping()
+    " Go back in history
+    nmap <buffer> H u
+    " Go up a directory
+    nmap <buffer> h -^
+    " Go down a directory / open file
+    nmap <buffer> l <CR>
+endfunction
+
+augroup netrw_mapping
+    autocmd!
+    autocmd filetype netrw call NetrwMapping()
+augroup END
+
+" Hit enter in the file browser to open the selected
+noremap  <C-E> :Explore %:p:h<CR>
+
+"Включить подсветку синтаксиса
+filetype plugin indent on
+syntax on
+set scrolloff=10
+
+set nobackup
+set noswapfile
+
+
+" Let's save undo info!
+if !isdirectory($HOME."/.vim/undo-dir")
+  call mkdir($HOME."/.vim/undo-dir", "p", 0700)
+endif
+
+set undofile
+set undoreload=10000
+set undodir=~/.vim/undo-dir
+
+" --- history / file handling ---
+set history=999             " Increase history (default = 20)
+set undolevels=999          " Moar undo (default=100)
+set autoread                " reload files if changed externally
+
+"-------------General Settings--------------"
+
+" Кодировка файлов по умолчанию
+set encoding=utf-8
+set fileformat=unix
+set fileencoding=utf-8
+"Кодировка терминала
+set termencoding=utf-8
+
+" Переносим на другую строчку, разрываем строки
+" set wrap
+set linebreak
+
+" Вырубаем черточки на табах
+set showtabline=1
+set nowrap
+
+" Удобное поведение backspace
+set backspace=indent,eol,start whichwrap+=<,>,[,]
+
+set clipboard=unnamed
+set ruler
+
+" Переключается между буферами без вопросов о сохранении
+set hidden
+
+" Настройки табов для Python, согласно рекоммендациям
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set expandtab "Ставим табы пробелами
+set softtabstop=4 "4 пробела в табе
+
+" Автоотступ
+set autoindent
+
+" Подсвечиваем все что можно подсвечивать
+let python_highlight_all = 1
+
+set nu "Включаем нумерацию строк
+set mousehide "Спрятать курсор мыши когда набираем текст
+set mouse=a "Включить поддержку мыши
+
+
+set colorcolumn=80
+
+" Change directory to the current buffer when opening files.
+" set autochdir
+set autowriteall
+set autowrite
+
+set ttyfast
+set showmode
+set showcmd
+
+set wildmenu
+
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
+"-------------Search--------------"
+" search down into subfolders
+" Provides tab-completion for all file-related task
+set path+=**
+set wildmenu
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set wildignore+=**/node_modules/**
+set wildignore+=**/venv/**
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
+function! FindFiles(filename)
+  let error_file = tempname()
+  silent exe '!fd -t f '.a:filename.' | xargs file | sed "s/:/:1:/>'.error_file
+  set errorformat=%f:%l:%m
+  exe "cfile ". error_file
+  copen
+  syntax on
+endfunction
+
+command! -nargs=1 Find call FindFiles(<q-args>)
+nmap <c-p> :Find<space>
+nmap <leader>f :find<space>
+
+if executable('rg') | let &grepprg = 'rg --vimgrep --smart-case $*' | endif
+
+command -nargs=1 SearchWindow :vimgrep <args> % <bar> :cwin
+
+" Better :grep
+" set grepprg=rg\ --vimgrep\ --follow\ --max-columns=1000\ --case-sensitive
+" set grepformat=%f:%l:%m
+
+" function! Rg(...)
+"   return system(join([&grepprg] + a:000), ' ')
+" endfunction
+
+" command! -nargs=+ -complete=file_in_path -bar Rg   cgetexpr Rg(<f-args>, )
+" command! -nargs=+ -complete=file_in_path -bar GrepWord  cgetexpr Rg(<f-args> . ' -w')
+
+augroup quickfix
+  autocmd!
+  autocmd QuickFixCmdPost cgetexpr cwindow
+augroup END
+
+" nmap <leader>g :Rg<space><space> -g '!cscope.out' .<left><left>
+" nmap <c-k> :GrepWord<space><c-r><c-w><space>.<cr>
+
+
+nnoremap <silent> <leader>] :cnext <CR>
+nnoremap <silent> <leader>[ :cprevious <CR>
+
+"-------------Commentary--------------"
+
+nnoremap gcc :<c-u>.,.+<c-r>=v:count<cr>call <SID>toggleComment()<cr>
+nnoremap gc :<c-u>set opfunc=<SID>commentOp<cr>g@
+xnoremap gc :call <SID>toggleComment()<cr>
+
+
+function! s:commentOp(...)
+  '[,']call s:toggleComment()
+endfunction
+
+function! s:toggleComment() range
+  let comment = substitute(get(b:, 'commentstring', &commentstring), '\s*\(%s\)\s*', '%s', '')
+  let pattern = '\V' . printf(escape(comment, '\'), '\(\s\{-}\)\s\(\S\.\{-}\)\s\=')
+  let replace = '\1\2'
+  if getline('.') !~ pattern
+    let indent = matchstr(getline('.'), '^\s*')
+    let pattern = '^' . indent . '\zs\(\s*\)\(\S.*\)'
+    let replace = printf(comment, '\1 \2' . (comment =~ '%s$' ? '' : ' '))
+  endif
+  if exists('g:context#commentstring#table')
+  let g:context#commentstring#table['javascript.jsx'] = {
+              \ 'jsComment' : '// %s',
+              \ 'jsImport' : '// %s',
+              \ 'jsxStatment' : '// %s',
+              \ 'jsxRegion' : '{/*%s*/}',
+              \}
+  endif
+  for lnum in range(a:firstline, a:lastline)
+    call setline(lnum, substitute(getline(lnum), pattern, replace, ''))
+  endfor
+endfunction
+
+
+"-------------Mappings--------------"
+
+"Make it easy to edit the Vimrc file.
+map <Leader>ev :tabedit $MYVIMRC<cr>
+
+"Add simple highlight removal.
+nmap <silent> <BS> :nohlsearch<CR>
+
+" Settings for buffers
+noremap <C-Right> :bn<CR> " move to next buffer
+noremap <C-Left> :bp<CR>  " move to previous buffer
+noremap <S-l> :bn<CR> " move to next buffer
+noremap <S-h> :bp<CR>  " move to previous buffer
+nmap <S-q> :bp<bar>bd#<CR>
+nnoremap <Leader>b :buffers<CR>:buffer<Space>
+nmap <leader>x :bp<bar>bd#<CR>
+
+" Shortcut split opening
+nmap ss :split<CR>
+nmap sv :vsplit<CR>
+
+" Alias replace all to S
+nnoremap S :%s//g<Left><Left>
+
+nnoremap k gk
+nnoremap j gj
+
+nnoremap <F8> :UndotreeToggle<cr>
+
+" Копирование в системный буфер
+noremap <S-Y> "+y
+
+" Save with root permission
+command! W w !sudo tee > /dev/null %
+
+
+" disable autoindent when pasting text
+" source: https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
+let &t_SI .= "\<Esc>[?2004h"
+let &t_EI .= "\<Esc>[?2004l"
+
+function! XTermPasteBegin()
+    set pastetoggle=<Esc>[201~
+    set paste
+    return ""
+endfunction
+
+inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+
+"-------------Auto-Commands--------------"
+
+"Automatically source the Vimrc file on save.
+augroup autosourcing
+  autocmd!
+  autocmd BufWritePost .vimrc source %
+augroup END
+
+
+" restore place in file from previous session
+autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+
+autocmd FileType html,css,jsx,js set tabstop=2
+autocmd FileType html,css,jsx,js set softtabstop=2
+autocmd FileType html,css,jsx,js set shiftwidth=2
+
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+set omnifunc=syntaxcomplete#Complete
+autocmd FileType python set omnifunc=syntaxcomplete#Complete
+
+autocmd FileType javascript.jsx setlocal commentstring={/*\ %s\ */}
+autocmd FileType jsx setlocal commentstring={/*\ %s\ */}
+autocmd FileType javascriptreact setlocal commentstring={/*\ %s\ */}
+au! BufNewFile,BufRead *.js,*.jsx set suffixesadd+=.js,.jsx
+
+
+nnoremap <leader>l :make %<cr>:copen<cr>:redraw!<cr>
+autocmd QuickFixCmdPost [^l]* cwindow
+
+
+" Add the current file's directory to the path if not already present.
+autocmd BufRead *
+      \ let s:tempPath=escape(escape(expand("%:p:h"), ' '), '\ ') |
+      \ exec "set path+=".s:tempPath
+
+
+" autocmd FileType javascript.jsx set formatprg=prettier\ --stdin-filepath
+" autocmd BufWritePre *.jsx :normal gggqG
+nnoremap gp :silent %!prettier --stdin-filepath %<CR>

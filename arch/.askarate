@@ -1,0 +1,16 @@
+#!/bin/sh
+
+tmux source-file ~/.tmux.conf
+tmux new-session -s ask -n VIM -d
+tmux send-keys -t ask 'cd ~/code/All-style_karate-competition/services' C-m
+tmux send-keys -t ask 'vim .' C-m
+tmux new-window -n server -t ask
+tmux send-keys -t ask:2 'cd ~/code/All-style_karate-competition/services/backend' C-m
+tmux send-keys -t ask:2 'source venv/bin/activate' C-m
+tmux send-keys -t ask:2 'cd ~/code/All-style_karate-competition/services/backend' C-m
+tmux send-keys -t ask:2 'python src/main.py' C-m
+tmux split-window -v
+tmux send-keys 'cd ~/code/All-style_karate-competition/services/frontend' C-m
+tmux send-keys 'npm run dev' C-m
+tmux select-window -t ask:1
+tmux -2 attach-session -t ask
