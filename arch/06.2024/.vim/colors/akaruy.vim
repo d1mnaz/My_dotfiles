@@ -41,7 +41,7 @@ hi StatusLineNC guifg=#ffffff guibg=#a8a8a8 gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#000000 guibg=#90ee90 gui=bold cterm=bold
 hi StatusLineTermNC guifg=#dadada guibg=#006400 gui=NONE cterm=NONE
 hi VertSplit guifg=#a8a8a8 guibg=#a8a8a8 gui=NONE cterm=NONE
-hi Pmenu guifg=#404040 guibg=#dadada gui=NONE cterm=NONE
+hi Pmenu guifg=#545454 guibg=#f0f0f0 gui=NONE cterm=NONE
 hi PmenuSel guifg=#404040 guibg=#a8a8a8 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#ffffff guibg=#ffffff gui=NONE cterm=NONE
 hi PmenuThumb guifg=#767676 guibg=#767676 gui=NONE cterm=NONE
@@ -87,7 +87,7 @@ hi Number guifg=#414141 guibg=NONE gui=bold cterm=bold
 hi Float guifg=#414141 guibg=NONE gui=bold cterm=bold
 hi Special guifg=#000000 guibg=NONE gui=NONE cterm=NONE
 hi SpecialChar guifg=#000000 guibg=NONE gui=bold cterm=NONE
-hi Directory guifg=#000000 guibg=NONE gui=bold cterm=bold
+hi Directory guifg=#414141 guibg=NONE gui=bold cterm=bold
 hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Title guifg=#000000 guibg=NONE gui=bold cterm=bold
 hi DiffAdd guifg=#ffffff guibg=#5f875f gui=NONE cterm=NONE

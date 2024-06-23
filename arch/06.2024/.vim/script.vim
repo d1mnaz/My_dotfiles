@@ -5,27 +5,11 @@ function ToggleWrap()
         echo "Wrap OFF"
         setlocal nowrap
         set virtualedit=all
-        silent! nunmap <buffer> <Up>
-        silent! nunmap <buffer> <Down>
-        silent! nunmap <buffer> <Home>
-        silent! nunmap <buffer> <End>
-        silent! iunmap <buffer> <Up>
-        silent! iunmap <buffer> <Down>
-        silent! iunmap <buffer> <Home>
-        silent! iunmap <buffer> <End>
     else
         echo "Wrap ON"
         setlocal wrap linebreak nolist
         set virtualedit=
         setlocal display+=lastline
-        noremap  <buffer> <silent> <Up>   gk
-        noremap  <buffer> <silent> <Down> gj
-        noremap  <buffer> <silent> <Home> g<Home>
-        noremap  <buffer> <silent> <End>  g<End>
-        inoremap <buffer> <silent> <Up>   <C-o>gk
-        inoremap <buffer> <silent> <Down> <C-o>gj
-        inoremap <buffer> <silent> <Home> <C-o>g<Home>
-        inoremap <buffer> <silent> <End>  <C-o>g<End>
     endif
 endfunction
 
@@ -97,7 +81,8 @@ endfunction
 command! Rooter call Rooter()
 
 
-" Отображает атрибуты подсветки синтаксиса символа под курсором; 
+" Отображает атрибуты подсветки синтаксиса символа под курсором;
+" https://www.vim.org/scripts/script.php?script_id=383
 function! SyntaxAttr()
      let synid = ""
      let guifg = ""
@@ -108,57 +93,56 @@ function! SyntaxAttr()
      let tid1 = synIDtrans(id1)
 
      if synIDattr(id1, "name") != ""
-	  let synid = "group: " . synIDattr(id1, "name")
-	  if (tid1 != id1)
-	       let synid = synid . '->' . synIDattr(tid1, "name")
-	  endif
-	  let id0 = synID(line("."), col("."), 0)
-	  if (synIDattr(id1, "name") != synIDattr(id0, "name"))
-	       let synid = synid .  " (" . synIDattr(id0, "name")
-	       let tid0 = synIDtrans(id0)
-	       if (tid0 != id0)
-		    let synid = synid . '->' . synIDattr(tid0, "name")
-	       endif
-	       let synid = synid . ")"
-	  endif
+  let synid = "group: " . synIDattr(id1, "name")
+  if (tid1 != id1)
+       let synid = synid . '->' . synIDattr(tid1, "name")
+  endif
+  let id0 = synID(line("."), col("."), 0)
+  if (synIDattr(id1, "name") != synIDattr(id0, "name"))
+       let synid = synid .  " (" . synIDattr(id0, "name")
+       let tid0 = synIDtrans(id0)
+       if (tid0 != id0)
+    let synid = synid . '->' . synIDattr(tid0, "name")
+       endif
+       let synid = synid . ")"
+  endif
      endif
 
      " Use the translated id for all the color & attribute lookups; the linked id yields blank values.
      if (synIDattr(tid1, "fg") != "" )
-	  let guifg = " guifg=" . synIDattr(tid1, "fg") . "(" . synIDattr(tid1, "fg#") . ")"
+  let guifg = " guifg=" . synIDattr(tid1, "fg") . "(" . synIDattr(tid1, "fg#") . ")"
      endif
      if (synIDattr(tid1, "bg") != "" )
-	  let guibg = " guibg=" . synIDattr(tid1, "bg") . "(" . synIDattr(tid1, "bg#") . ")"
+  let guibg = " guibg=" . synIDattr(tid1, "bg") . "(" . synIDattr(tid1, "bg#") . ")"
      endif
      if (synIDattr(tid1, "bold"     ))
-	  let gui   = gui . ",bold"
+  let gui   = gui . ",bold"
      endif
      if (synIDattr(tid1, "italic"   ))
-	  let gui   = gui . ",italic"
+  let gui   = gui . ",italic"
      endif
      if (synIDattr(tid1, "reverse"  ))
-	  let gui   = gui . ",reverse"
+  let gui   = gui . ",reverse"
      endif
      if (synIDattr(tid1, "inverse"  ))
-	  let gui   = gui . ",inverse"
+  let gui   = gui . ",inverse"
      endif
      if (synIDattr(tid1, "underline"))
-	  let gui   = gui . ",underline"
+  let gui   = gui . ",underline"
      endif
      if (gui != ""                  )
-	  let gui   = substitute(gui, "^,", " gui=", "")
+  let gui   = substitute(gui, "^,", " gui=", "")
      endif
 
      echohl MoreMsg
      let message = synid . guifg . guibg . gui
      if message == ""
-	  echohl WarningMsg
-	  let message = "<no syntax group here>"
+  echohl WarningMsg
+  let message = "<no syntax group here>"
      endif
      echo message
      echohl None
 endfunction
-map -a :call SyntaxAttr()<CR>
 
 "------------------------------RelativAutocomplet-------------------------------
 function! s:EnableRelativeAutocomplete() abort
@@ -179,5 +163,18 @@ augroup relative_file_autocomplete
   autocmd InsertLeave * call s:DisableRelativeAutocomplete()
 augroup END
 
-" Включает автодополнение по относительному пути к файлам
-inoremap <C-x><C-x><C-f> <C-o>:call <SID>EnableRelativeAutocomplete()<CR><C-x><C-f>
+
+
+"--------------------------------FancySmancy--------------------------------
+" FancySmancyComment(text, fill_char, width)
+" Create comment string with centered text
+" All arguments are optional
+function! FancySmancyComment(...)
+  let text = get(a:000, 0, '')
+  let fill = get(a:000, 1, '-')[0]
+  let width = get(a:000, 2, 80) - len(printf(&commentstring, '')) - len(text)
+  let left = width / 2
+  let right = width - left
+  put=printf(&commentstring, repeat(fill, left) . text . repeat(fill, right))
+endfunction
+command! -nargs=1 Fancy call FancySmancyComment(<q-args>)

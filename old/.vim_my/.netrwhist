@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/dimon/.vim/plugin'
+let g:netrw_dirhist_0='/home/dimon/.vim'
+let g:netrw_dirhist_9='/run/media/dimon/code/events_solid/src'
+let g:netrw_dirhist_8='/home/dimon/.vim'
+let g:netrw_dirhist_7='/home/dimon'
+let g:netrw_dirhist_6='/home/dimon/.vim'
+let g:netrw_dirhist_5='/home/dimon'
+let g:netrw_dirhist_4='/home/dimon/.vim/plugin'
+let g:netrw_dirhist_3='/home/dimon/.vim'
+let g:netrw_dirhist_2='/home/dimon'

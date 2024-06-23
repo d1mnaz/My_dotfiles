@@ -1,6 +1,7 @@
 vim9script
 
-#-------------Mappings--------------#
+
+# -----------------------------------Mappings-----------------------------------
 
 # Редактирование Vimrc file в новом табе
 map <Leader>ev :tabedit $MYVIMRC<cr>
@@ -32,44 +33,58 @@ noremap <S-Y> "+y
 # Hit enter in the file browser to open the selected
 noremap  <C-E> :Explore %:p:h<CR>
 
+
+
+# -------------------Для меню автокомплита-------------------
+
 # When completion menu is shown, use <cr> to select an item
-# and do not add an annoying newline. Otherwise, <enter> is what it is.
-# For more info , see https://superuser.com/q/246641/736190 and
-# https://unix.stackexchange.com/q/162528/221410
 inoremap <expr> <cr> ((pumvisible()) ? ("\<C-Y>") : ("\<cr>"))
 # Use <esc> to close auto-completion menu
 inoremap <expr> <esc> ((pumvisible()) ? ("\<C-e>") : ("\<esc>"))
-
 # Use <tab> to navigate down the completion menu.
 inoremap <expr> <tab>  pumvisible() ? "\<C-n>" : "\<tab>"
+
+
+
+# -------------------------------Map for function from script-------------------------------
 
 # Позволяет разбивать текущую сторку на несколько для отображения
 noremap <silent> <Leader>w :call ToggleWrap()<CR>
 
+
 # Поиск слова из функции Better Grep в scripts
 nmap <leader>gg :Grep<space><space>.<left><left>
+
+# Поиск слова  под курсором из функции Better Grep в scripts
 nmap gw :GrepWord<space><c-r><c-w><space>.<cr>
 
 # Открывает или закрывает окно QuickFix
 nnoremap <leader>q :call ToggleQuickFix()<cr>
 
-# _________________Map for plugins__________________________
+
+# Включает автодополнение по относительному пути к файлам
+inoremap <C-x><C-x><C-f> <C-o>:call <SID>EnableRelativeAutocomplete()<CR><C-x><C-f>
 
 
-# Поиск fzf  с плагином Vim9FuzzyFile
-# Search by only file name.
-noremap <C-f> :Vim9FuzzyFile<CR>
-# Search by full path
-noremap <C-p> :Vim9FuzzyPath<CR>
+# Отображает атрибуты подсветки синтаксиса символа под курсором;
+map -a :call SyntaxAttr()<CR>
 
+# -------------------------------Map for plugins--------------------------------
 
-# Поиск слова по всей текущей директории plugin fzf
+# Поиск fzf
 nmap <leader>g :Rg<space><cr>
 nmap <leader>b :Buffers<space><cr>
 nnoremap <leader>G :GFiles<CR>
-
-# поиск файлов
 nmap <leader>f :Files<space><cr>
 
 # Открыть окно просмотра версий файла (нужен плагин Undotree)
 nnoremap <F8> :UndotreeToggle<CR>
+
+
+#  Hotkeys for ALE
+nmap <leader>a :ALEToggle<CR>
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+nmap <silent> gh <Plug>(ale_hover)
+nmap <silent> <C-d> <Plug>(ale_go_to_definition)
+nmap <silent> gr <Plug>(ale_find_references)

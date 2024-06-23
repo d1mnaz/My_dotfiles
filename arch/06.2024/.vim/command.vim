@@ -28,6 +28,10 @@ augroup CursorLine
     au WinLeave * setlocal nocursorline
 augroup END
 
+# Меняет линию курсора при наборе
+autocmd InsertEnter * highlight CursorLine guifg=NONE guibg=#edfff1
+autocmd InsertLeave * highlight CursorLine guifg=NONE guibg=#f0f0f0
+
 # Восстанавливать складки
 augroup Remember_folds
   autocmd!
@@ -44,4 +48,3 @@ augroup END
 
 # Сохранять измененный буфер во время простоя по истечении 'updatetime' (по умолчанию 4 сек.)
 autocmd CursorHoldI,CursorHold * silent! update
-

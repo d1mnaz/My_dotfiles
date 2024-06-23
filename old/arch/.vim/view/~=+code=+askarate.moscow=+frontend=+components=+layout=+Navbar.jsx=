@@ -1,0 +1,110 @@
+let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=99
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+11,13fold
+20,26fold
+19,27fold
+19,27fold
+41,46fold
+34,47fold
+34,47fold
+28,48fold
+62,67fold
+55,68fold
+76,81fold
+69,82fold
+90,95fold
+83,96fold
+104,109fold
+97,110fold
+118,123fold
+111,124fold
+132,137fold
+125,138fold
+146,151fold
+139,152fold
+162,167fold
+155,168fold
+154,169fold
+153,170fold
+176,179fold
+176,179fold
+175,180fold
+173,181fold
+172,182fold
+171,183fold
+54,184fold
+49,185fold
+18,186fold
+17,187fold
+8,188fold
+let &fdl = &fdl
+8
+normal! zo
+17
+normal! zo
+18
+normal! zo
+19
+normal! zo
+19
+normal! zo
+28
+normal! zo
+34
+normal! zo
+34
+normal! zo
+49
+normal! zo
+54
+normal! zo
+55
+normal! zo
+69
+normal! zo
+83
+normal! zo
+97
+normal! zo
+111
+normal! zo
+125
+normal! zo
+139
+normal! zo
+153
+normal! zo
+154
+normal! zo
+155
+normal! zo
+171
+normal! zo
+172
+normal! zo
+173
+normal! zo
+175
+normal! zo
+176
+normal! zo
+let s:l = 1 - ((0 * winheight(0) + 21) / 43)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+lcd ~/code/askarate.moscow/frontend/components/layout
+let &g:so = s:so_save | let &g:siso = s:siso_save
+nohlsearch
+doautoall SessionLoadPost
+" vim: set ft=vim :
