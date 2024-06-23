@@ -1,0 +1,17 @@
+[user]
+  email = dimonnaz@gmail.com
+  name = d1mnaz
+[credential]
+  helper = store
+[alias]
+  st = status
+  change = log --pretty=format:'[%h] %ae, %ar: %s' --stat
+  logs  = log --graph --pretty=format:'%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) %C(cyan)<%an>%Creset' --abbrev-commit
+	d = difftool
+
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[safe]
+	directory = /run/media/dimon/Work/Pip-Boy

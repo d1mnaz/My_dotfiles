@@ -1,0 +1,28 @@
+" vim: filetype=vifm :
+
+" Author: Daniel R. (a.k.a. reicheltd)
+
+highlight clear
+
+highlight Win cterm=none ctermfg=236 ctermbg=231
+highlight Directory cterm=bold ctermfg=238 ctermbg=231
+highlight Link cterm=bold ctermfg=240 ctermbg=default
+
+highlight BrokenLink cterm=bold ctermfg=233 ctermbg=default
+highlight Socket cterm=bold ctermfg=242 ctermbg=default
+highlight Device cterm=bold ctermfg=244 ctermbg=default
+
+highlight Fifo cterm=bold ctermfg=244 ctermbg=default
+highlight Executable cterm=bold ctermfg=233 ctermbg=default
+highlight Selected cterm=bold ctermfg=245 ctermbg=default
+
+highlight CurrLine cterm=bold ctermfg=231 ctermbg=249
+highlight TopLine cterm=none ctermfg=236 ctermbg=231
+highlight TopLineSel cterm=bold ctermfg=236 ctermbg=231
+
+highlight StatusLine cterm=bold ctermfg=236 ctermbg=231
+highlight WildMenu cterm=underline,reverse ctermfg=236 ctermbg=231
+highlight CmdLine cterm=none ctermfg=236 ctermbg=231
+
+highlight ErrorMsg cterm=none ctermfg=red ctermbg=236
+highlight Border cterm=none ctermfg=236 ctermbg=231
