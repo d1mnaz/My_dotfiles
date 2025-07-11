@@ -48,3 +48,4 @@ augroup END
 
 # Сохранять измененный буфер во время простоя по истечении 'updatetime' (по умолчанию 4 сек.)
 autocmd CursorHoldI,CursorHold * silent! update
+autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2

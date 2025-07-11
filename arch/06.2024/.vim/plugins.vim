@@ -23,6 +23,13 @@ plug#begin()
     Plug 'junegunn/fzf.vim'
     Plug 'ap/vim-css-color'
     Plug 'dense-analysis/ale'
+    Plug 'yuezk/vim-js'
+    Plug 'maxmellon/vim-jsx-pretty'
+    Plug 'Glench/Vim-Jinja2-Syntax'
+    Plug 'tweekmonster/django-plus.vim'
+    Plug 'vim-test/vim-test'
+    Plug 'majutsushi/tagbar'
+
 plug#end()
 
 
@@ -52,20 +59,23 @@ set omnifunc=ale#completion#OmniFunc
 
 
 # Настройки линтеров
-g:ale_linters = {'jsx': ['tsserver', 'eslint'], 'astro': ['eslint'], 'tsx': ['tsserver', ], }
-g:ale_linter_aliases = {'jsx': ['css', 'javascript'], 'tsx': ['tsserver'], }
+g:ale_linters = {'jsx': ['biome'], 'astro': ['eslint'], 'tsx': ['tsserver'], 'javascriptreact': ['biome'], 'typescriptreact': ['tsserver'],  }
+g:ale_linter_aliases = {'jsx': ['css', 'javascript'], 'tsx': ['biome'], }
 
-g:ale_linters_ignore = { 'python': ['pylint', 'mypy', 'flake8'], }
-g:ale_linters = { 'python': ['ruff', 'pyright' ], }
+g:ale_linters_ignore = { 'python': ['pylint', 'mypy', 'flake8'], 'javascriptreact': ['eslint'], 'typescriptreact': ['eslint', 'biome', ], }
+g:ale_linters = { 'python': ['ruff', 'pyright'], }
 
-g:ale_fixers = { '*': ['remove_trailing_lines', 'trim_whitespace'], 
-	'python': ['black'], 
-	'javascript': ['prettier'], 
-	'javascript.jsx': ['prettier'], 
-	'typescript': ['prettier'], 
-	'typescriptreact': ['prettier'], }
-g:ale_linter_aliases = {'typescriptreact': 'typescript'}
+# g:ale_fixers = { '*': ['remove_trailing_lines', 'trim_whitespace'], 'python': ['ruff', 'ruff_format', ], 'javascript': ['biome'], 'javascriptreact': ['biome'], 'typescript': ['tsserver'], 'typescriptreact': ['tsserver'], }
 
+# g:ale_linters = {'jsx': ['biome', 'tsserver'], 'astro': ['eslint'], 'tsx': ['tsserver', 'eslint'], 'scss': ['stylelint', 'prettier'], }
+# g:ale_linter_aliases = {'jsx': ['css', 'javascript'], 'tsx': ['tsserver', 'eslint'], }
+
+# g:ale_linters_ignore = { 'python': ['pylint', 'mypy', 'flake8'], }
+# g:ale_linters = { 'python': ['ruff', 'pyright' ], }
+# b:ale_linters = ['analyzer', 'rustc']
+
+g:ale_fixers = { '*': ['remove_trailing_lines', 'trim_whitespace'], 'python': ['ruff', 'ruff_format',], 'javascriptreact': ['prettier', 'biome'], 'javascript': ['prettier', 'biome'], 'javascript.jsx': ['prettier', 'tsserver'], 'typescript': ['prettier', 'eslint'], 'typescriptreact': ['prettier', 'eslint'], 'scss': ['stylelint', 'prettier'], }
+# g:ale_linter_aliases = {'typescriptreact': 'typescript'}
 
 g:ale_set_highlights = 1
 g:ale_virtualtext_cursor = 0
@@ -78,3 +88,8 @@ g:ale_floating_window_border = []
 g:ale_lint_on_insert_leave = 1
 # g:ale_lint_on_text_changed = 'never'
 g:ale_fix_on_save = 1
+
+
+g:vim_jsx_pretty_colorful_config = 1
+
+

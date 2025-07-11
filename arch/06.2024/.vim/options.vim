@@ -136,3 +136,6 @@ set pumheight=20                       # Don't make completion menu too high.
 
 # Diffs are shown side-by-side not above/below
 set diffopt=vertical
+
+# set textwidth=80
+set colorcolumn=80

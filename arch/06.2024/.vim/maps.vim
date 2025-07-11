@@ -74,12 +74,13 @@ map -a :call SyntaxAttr()<CR>
 # Поиск fzf
 nmap <leader>g :Rg<space><cr>
 nmap <leader>b :Buffers<space><cr>
-nnoremap <leader>G :GFiles<CR>
+nnoremap <leader>g :GFiles<CR>
 nmap <leader>f :Files<space><cr>
 
 # Открыть окно просмотра версий файла (нужен плагин Undotree)
 nnoremap <F8> :UndotreeToggle<CR>
 
+nmap <F9> :TagbarToggle<CR>
 
 #  Hotkeys for ALE
 nmap <leader>a :ALEToggle<CR>
@@ -88,3 +89,9 @@ nmap <silent> <C-j> <Plug>(ale_next_wrap)
 nmap <silent> gh <Plug>(ale_hover)
 nmap <silent> <C-d> <Plug>(ale_go_to_definition)
 nmap <silent> gr <Plug>(ale_find_references)
+
+# Vim-test
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
