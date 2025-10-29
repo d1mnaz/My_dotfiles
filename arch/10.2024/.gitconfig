@@ -1,0 +1,30 @@
+[user]
+  email = dimonnaz@gmail.com
+  name = d1mnaz
+[credential]
+  helper = store
+[alias]
+  st = status
+  ci = commit
+  change = log --pretty=format:'[%h] %ae, %ar: %s' --stat
+  logs  = log --graph --pretty=format:'%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) %C(cyan)<%an>%Creset' --abbrev-commit
+  d = difftool
+
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[merge]
+  conflictstyle = diff3
+[core]
+  quotepath = false
+
+[tig "color"]
+  # A strange looking cursor line
+  cursor    = red white underline
+  # UI colors
+  title-blur  = white blue
+  title-focus = white blue  bold
+# View-specific color
+[tig "color.tree"]
+  date    = cyan  default bold

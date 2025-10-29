@@ -1,0 +1,712 @@
+{
+  "status": "success",
+  "errors": [],
+  "data": [
+    {
+      "id": "22827",
+      "text": "Заканчивай блять начатое!",
+      "html": "Заканчивай<br>блять<br>начатое!",
+      "tags": [
+        "life",
+        "newyear",
+        "business",
+        "gtd",
+        "friendship",
+        "translate",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "14797",
+      "text": "Не усложняй жизнь, ёпта!",
+      "html": "Не&nbsp;усложняй<br>жизнь,<br><span class=\"heighten\">ёпта!</span>",
+      "tags": [
+        "life",
+        "business",
+        "office",
+        "gtd",
+        "love",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26252",
+      "text": "Никогда блять не унижайся!",
+      "html": "Никогда<br>блять<br>не унижайся!",
+      "tags": [
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "love",
+        "kids",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26173",
+      "text": "Остановись блять и подумай!",
+      "html": "Остановись<br>блять<br><span class=\"heighten\">и подумай!</span>",
+      "tags": [
+        "medicine",
+        "life",
+        "business",
+        "frontend",
+        "office",
+        "gtd",
+        "love",
+        "kids",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26260",
+      "text": "Делаешь что-то — делай блять хорошо!",
+      "html": "<span class=\"dash\">Делаешь что-то&nbsp;—</span><br><span class=\"heighten\">делай хорошо,<br>блять!</span>",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "seo",
+        "driving",
+        "music",
+        "tricks",
+        "medicine",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "frontend",
+        "office",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "dentist",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "4707",
+      "text": "Встань блять, разомнись!",
+      "html": "Встань<br>блять,<br>разомнись!",
+      "tags": [
+        "design",
+        "coding",
+        "education",
+        "frontend",
+        "office",
+        "gtd",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "4907",
+      "text": "Не жалей блять себя!",
+      "html": "Не&nbsp;жалей<br>блять<br>себя!",
+      "tags": [
+        "business",
+        "gtd",
+        "love",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26297",
+      "text": "Делись блять тем что имеешь!",
+      "html": "Делись<br>блять<br>тем<br>что имеешь!",
+      "tags": [
+        "education",
+        "life",
+        "newyear",
+        "business",
+        "office",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "8288",
+      "text": "Посиди блять в тишине",
+      "html": "Посиди<br>блять<br>в&nbsp;тишине",
+      "tags": [
+        "life",
+        "business",
+        "office",
+        "gtd",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "4727",
+      "text": "Не засиживайся блять на работе!",
+      "html": "Не&nbsp;засиживайся<br>блять<br>на&nbsp;работе!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "text",
+        "life",
+        "business",
+        "frontend",
+        "office",
+        "gtd",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26280",
+      "text": "Укрепляй туловище, ёпта!",
+      "html": "Укрепляй<br>туловище,<br><span class=\"heighten\">ёпта!</span>",
+      "tags": [
+        "tricks",
+        "life",
+        "for-him",
+        "for-her",
+        "newyear",
+        "business",
+        "office",
+        "snowboard",
+        "kids",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26281",
+      "text": "Ставь важное вперёд, блять!",
+      "html": "Ставь<br>важное<br><span class=\"heighten\">вперёд,<br>блять!</span>",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "marketing",
+        "medicine",
+        "life",
+        "business",
+        "office",
+        "gtd",
+        "love",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "13847",
+      "text": "Не жадничай, блять!",
+      "html": "Не&nbsp;жадничай,<br>блять!",
+      "tags": [
+        "seo",
+        "life",
+        "office",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1238",
+      "text": "Не пропускай блять обед!",
+      "html": "Не&nbsp;пропускай<br>блять<br>обед!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "medicine",
+        "education",
+        "life",
+        "frontend",
+        "gtd",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "10678",
+      "text": "Не обещай блять невозможного!",
+      "html": "Не&nbsp;обещай<br>блять<br>невозможного!",
+      "tags": [
+        "design",
+        "coding",
+        "marketing",
+        "medicine",
+        "business",
+        "gtd",
+        "love",
+        "friendship",
+        "dentist",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "8548",
+      "text": "Хочешь быть первым— вставай блять раньше!",
+      "html": "Хочешь<br>быть<br><span class=\"dash\">первым&nbsp;—</span><br><span class=\"heighten\">вставай<br>блять<br>раньше!</span>",
+      "tags": [
+        "design",
+        "photo",
+        "seo",
+        "education",
+        "life",
+        "business",
+        "gtd",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26302",
+      "text": "Не считай себя ёбаным телепатом!",
+      "html": "Не считай<br>себя<br><span class=\"heighten\">ёбаным<br>телепатом!</span>",
+      "tags": [
+        "driving",
+        "life",
+        "for-him",
+        "business",
+        "gtd",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1288",
+      "text": "Больше бля ходи пешком!",
+      "html": "Больше<br>бля<br>ходи<br>пешком!",
+      "tags": [
+        "life",
+        "gtd",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26323",
+      "text": "Не охай — всем похуй!",
+      "html": "<span class=\"dash\">Не&nbsp;охай&nbsp;—</span><br>всем<br><span class=\"heighten\">похуй!</span>",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "driving",
+        "music",
+        "tricks",
+        "medicine",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "frontend",
+        "office",
+        "snowboard",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "translate",
+        "dentist",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "19257",
+      "text": "Не опускай блять руки!",
+      "html": "Не&nbsp;опускай<br>блять<br>руки!",
+      "tags": [
+        "life",
+        "business",
+        "gtd",
+        "love",
+        "kids",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "6978",
+      "text": "Смотри блять не перестарайся!",
+      "html": "Смотри<br>блять<br>не&nbsp;перестарайся!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "text",
+        "marketing",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "frontend",
+        "office",
+        "gtd",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "6848",
+      "text": "Умей блять вовремя заткнуться!",
+      "html": "Умей<br>блять<br>вовремя<br>заткнуться!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "music",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "frontend",
+        "love",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26181",
+      "text": "Запиши, блять, — и не забудешь!",
+      "html": "Запиши,<br><span class=\"dash\">блять&nbsp;—</span><br>тогда<br>не забудешь!",
+      "tags": [
+        "text",
+        "driving",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "office",
+        "gtd",
+        "kids",
+        "money",
+        "friendship",
+        "translate",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26254",
+      "text": "Не бойся блять спросить странное!",
+      "html": "Не бойся<br>блять<br>спросить<br>странное!",
+      "tags": [
+        "life",
+        "business",
+        "office",
+        "kids",
+        "money",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26269",
+      "text": "Не сиди, блять! Сделай что-нибудь!",
+      "html": "Не сиди,<br>блять!<br><span class=\"heighten\">Сделай<br>что-нибудь!</span>",
+      "tags": [
+        "music",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "office",
+        "gtd",
+        "love",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "15717",
+      "text": "Не спеши блять с выводами!",
+      "html": "Не&nbsp;спеши<br>блять<br>с&nbsp;выводами!",
+      "tags": [
+        "life",
+        "business",
+        "love",
+        "kids",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "7778",
+      "text": "Хорош блять откладывать!",
+      "html": "Хорош<br>блять<br>откладывать!",
+      "tags": [
+        "education",
+        "life",
+        "gtd",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "7608",
+      "text": "Работай блять с удовольствием!",
+      "html": "Работай<br>блять<br>с&nbsp;удовольствием!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "education",
+        "life",
+        "business",
+        "frontend",
+        "office",
+        "gtd",
+        "money",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "132",
+      "text": "Сходи блять в бассейн!",
+      "html": "Сходи<br>блять<br>в&nbsp;бассейн!",
+      "tags": [
+        "life",
+        "for-him",
+        "love",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "7638",
+      "text": "Экономь блять время!",
+      "html": "Экономь<br>блять<br>время!",
+      "tags": [
+        "design",
+        "education",
+        "life",
+        "business",
+        "gtd",
+        "money",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "718",
+      "text": "Причиняй блять пользу!",
+      "html": "Причиняй<br>блять<br>пользу!",
+      "tags": [
+        "design",
+        "coding",
+        "marketing",
+        "seo",
+        "medicine",
+        "life",
+        "business",
+        "office",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26288",
+      "text": "Помни блять что именно ты любишь!",
+      "html": "Помни блять<br>что именно<br>ты любишь!",
+      "tags": [
+        "photo",
+        "music",
+        "tricks",
+        "life",
+        "for-him",
+        "for-her",
+        "newyear",
+        "snowboard",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "19987",
+      "text": "Иди блять на фитнес!",
+      "html": "Иди<br>блять<br>на&nbsp;фитнес!",
+      "tags": [
+        "for-him",
+        "for-her",
+        "love",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "6988",
+      "text": "Сходи блять прогуляйся!",
+      "html": "Сходи<br>блять<br>прогуляйся!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "driving",
+        "music",
+        "education",
+        "life",
+        "business",
+        "gtd",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "7798",
+      "text": "Не торопи блять события!",
+      "html": "Не&nbsp;торопи<br>блять<br>события!",
+      "tags": [
+        "marketing",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "love",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26243",
+      "text": "Хочешь быть счастливым — будь, ёпта!",
+      "html": "Хочешь быть<br><span class=\"dash\">счастливым&nbsp;—</span><br><span class=\"heighten\">будь, ёпта!</span>",
+      "tags": [
+        "life",
+        "for-him",
+        "for-her",
+        "love",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26284",
+      "text": "Умей блять благодарить!",
+      "html": "Умей<br>блять<br>благодарить!",
+      "tags": [
+        "life",
+        "business",
+        "love",
+        "kids",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "708",
+      "text": "Признавай блять очевидное!",
+      "html": "Признавай<br>блять<br>очевидное!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "medicine",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "love",
+        "kids",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "7828",
+      "text": "Реши блять сам!",
+      "html": "Реши<br>блять<br>сам!",
+      "tags": [
+        "education",
+        "life",
+        "for-him",
+        "business",
+        "gtd",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "5888",
+      "text": "Не рви жопу напрасно!",
+      "html": "Не&nbsp;рви<br>жопу<br>напрасно!",
+      "tags": [
+        "design",
+        "coding",
+        "education",
+        "life",
+        "business",
+        "frontend",
+        "gtd",
+        "love",
+        "friendship",
+        "health"
+      ],
+      "conclusions": []
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "status": "success",
+  "errors": [],
+  "data": [
+    {
+      "id": "5",
+      "text": "Читай книги, ёпта!",
+      "html": "Читай<br>книги,<br><span class=\"heighten\">ёпта!</span>",
+      "tags": [
+        "design",
+        "coding",
+        "photo",
+        "text",
+        "education",
+        "life",
+        "business",
+        "gtd"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "48",
+      "text": "Не тупи бля!",
+      "html": "Не&nbsp;тупи<br>бля!",
+      "tags": [
+        "coding",
+        "photo",
+        "driving",
+        "education",
+        "life",
+        "business",
+        "office",
+        "snowboard",
+        "gtd"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1308",
+      "text": "Выравняй блять горизонт!",
+      "html": "Выравняй<br>блять<br>горизонт!",
+      "tags": [
+        "photo"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1678",
+      "text": "Не превращай блять кожу в пластик!",
+      "html": "Не&nbsp;превращай<br>блять<br>кожу<br>в&nbsp;пластик!",
+      "tags": [
+        "design",
+        "photo"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "768",
+      "text": "Слушай блять клиента!",
+      "html": "Слушай<br>блять<br>клиента!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "seo",
+        "life",
+        "business",
+        "frontend",
+        "office",
+        "gtd"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "758",
+      "text": "Сделай бля с душой!",
+      "html": "Сделай<br>бля<br>с&nbsp;душой!",
+      "tags": [
+        "design",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "music",
+        "tricks"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "29",
+      "text": "Следи блять за отступами!",
+      "html": "Следи<br>блять<br>за&nbsp;отступами!",
+      "tags": [
+        "design",
+        "markup",
+        "photo",
+        "text",
+        "frontend"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "498",
+      "text": "Изучай блять чужие работы!",
+      "html": "Изучай<br>блять<br>чужие<br>работы!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "music",
+        "tricks"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "2177",
+      "text": "Следи блять за гистограммой!",
+      "html": "Следи<br>блять<br>за&nbsp;гистограммой!",
+      "tags": [
+        "photo"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1648",
+      "text": "Освобождай карту после каждого сета!",
+      "html": "Освобождай<br>карту<br>после<br>каждого<br>сета!",
+      "tags": [
+        "photo"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1798",
+      "text": "Не лапай блять обьектив!",
+      "html": "Не&nbsp;лапай<br>блять<br>обьектив!",
+      "tags": [
+        "photo"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "738",
+      "text": "Сделай блять наглядно!",
+      "html": "Сделай<br>блять<br>наглядно!",
+      "tags": [
+        "design",
+        "markup",
+        "photo",
+        "text",
+        "music",
+        "gtd"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "8068",
+      "text": "Мысли блять позитивно!",
+      "html": "Мысли<br>блять<br>позитивно!",
+      "tags": [
+        "photo",
+        "music",
+        "education",
+        "life",
+        "gtd",
+        "friendship"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "57",
+      "text": "Не плоди хуйни!",
+      "html": "Не&nbsp;плоди<br><span class=\"heighten\">хуйни!</span>",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "music",
+        "medicine",
+        "life",
+        "business",
+        "frontend",
+        "love",
+        "friendship"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "33",
+      "text": "Не еби мозги окружающим!",
+      "html": "Не&nbsp;еби мозги<br>окружающим! ",
+      "tags": [
+        "photo",
+        "marketing",
+        "driving",
+        "life",
+        "business",
+        "office"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "678",
+      "text": "Похвали блять коллегу!",
+      "html": "Похвали<br>блять<br>коллегу!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "music",
+        "medicine",
+        "life",
+        "business",
+        "office",
+        "love",
+        "friendship",
+        "dentist"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26298",
+      "text": "Прогуляйся, блять, успокой мысли!",
+      "html": "Прогуляйся,<br>блять,<br><span class=\"heighten\">успокой<br>мысли!</span>",
+      "tags": [
+        "photo",
+        "driving",
+        "music",
+        "tricks",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "snowboard",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "668",
+      "text": "Понравься блять клиенту!",
+      "html": "Понравься<br>блять<br>клиенту!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "life",
+        "business",
+        "office"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26308",
+      "text": "Пытайся, блять, пока не получится!",
+      "html": "Пытайся,<br>блять,<br>пока<br>не&nbsp;получится!",
+      "tags": [
+        "photo",
+        "driving",
+        "music",
+        "tricks",
+        "life",
+        "business",
+        "snowboard",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "health",
+        "pool"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "848",
+      "text": "Учись блять продавать!",
+      "html": "Учись<br>блять<br>продавать!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "education",
+        "life",
+        "business"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "3307",
+      "text": "Передай блять эмоции!",
+      "html": "Передай<br>блять<br>эмоции!",
+      "tags": [
+        "design",
+        "photo",
+        "music"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "688",
+      "text": "Хуй с ним, делай в одиночку!",
+      "html": "Хуй с&nbsp;ним,<br><span class=\"heighten\">делай<br>в&nbsp;одиночку!</span>",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "music",
+        "medicine",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "gtd",
+        "love",
+        "kids",
+        "friendship"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "6388",
+      "text": "Ищи блять новые идеи!",
+      "html": "Ищи<br>блять<br>новые<br>идеи!",
+      "tags": [
+        "design",
+        "photo",
+        "marketing",
+        "music",
+        "tricks",
+        "business",
+        "money"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "6508",
+      "text": "Не считай себя исключительным!",
+      "html": "Не&nbsp;считай себя<br>исключительным!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "driving",
+        "music",
+        "education",
+        "life",
+        "for-him",
+        "frontend",
+        "love",
+        "friendship"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "71",
+      "text": "Попробуй блять, а то не узнаешь!",
+      "html": "Попробуй<br>блять,<br>а&nbsp;то&nbsp;не&nbsp;узнаешь!",
+      "tags": [
+        "coding",
+        "photo",
+        "music",
+        "life",
+        "for-him",
+        "business",
+        "gtd",
+        "love"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "8108",
+      "text": "Объясняй блять свои решения!",
+      "html": "Объясняй<br>блять<br>свои<br>решения!",
+      "tags": [
+        "design",
+        "coding",
+        "photo",
+        "marketing",
+        "music",
+        "life",
+        "business",
+        "frontend",
+        "gtd",
+        "love",
+        "friendship"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "41",
+      "text": "Не ври себе, ёпта!",
+      "html": "Не&nbsp;ври<br>себе,<br><span class=\"heighten\">ёпта!</span>",
+      "tags": [
+        "photo",
+        "marketing",
+        "medicine",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "gtd"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26189",
+      "text": "Посмотри блять со стороны!",
+      "html": "Посмотри<br>блять<br>со&nbsp;стороны!",
+      "tags": [
+        "design",
+        "photo",
+        "music",
+        "tricks",
+        "life",
+        "business",
+        "love",
+        "kids"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "5157",
+      "text": "Поднимай блять расценки!",
+      "html": "Поднимай<br>блять<br>расценки!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "seo",
+        "music",
+        "medicine",
+        "life",
+        "business",
+        "frontend",
+        "office",
+        "money",
+        "translate",
+        "dentist"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "318",
+      "text": "Делай блять аккуратнее!",
+      "html": "Делай<br>блять<br>аккуратнее!",
+      "tags": [
+        "design",
+        "markup",
+        "photo",
+        "text",
+        "music"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1548",
+      "text": "Поищи блять фон!",
+      "html": "Поищи<br>блять<br>фон!",
+      "tags": [
+        "photo"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26260",
+      "text": "Делаешь что-то — делай блять хорошо!",
+      "html": "<span class=\"dash\">Делаешь что-то&nbsp;—</span><br><span class=\"heighten\">делай хорошо,<br>блять!</span>",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "seo",
+        "driving",
+        "music",
+        "tricks",
+        "medicine",
+        "education",
+        "life",
+        "for-him",
+        "for-her",
+        "business",
+        "frontend",
+        "office",
+        "gtd",
+        "love",
+        "kids",
+        "money",
+        "friendship",
+        "dentist",
+        "travel",
+        "health"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "20",
+      "text": "Выравняй блять по сетке!",
+      "html": "Выравняй<br>блять<br>по&nbsp;сетке!",
+      "tags": [
+        "design",
+        "markup",
+        "photo",
+        "music",
+        "life",
+        "frontend"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "26300",
+      "text": "Хуёвый мастер ругает инструмент",
+      "html": "Хуёвый<br>мастер<br>ругает<br>инструмент",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "text",
+        "marketing",
+        "seo",
+        "driving",
+        "music",
+        "tricks",
+        "medicine",
+        "education",
+        "life",
+        "business",
+        "frontend",
+        "office",
+        "friendship",
+        "dentist",
+        "pool"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "126",
+      "text": "Пей блять кофе поменьше!",
+      "html": "Пей<br>блять<br>кофе<br>поменьше!",
+      "tags": [
+        "design",
+        "coding",
+        "photo",
+        "life",
+        "frontend",
+        "gtd"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "2028",
+      "text": "Сохраняй блять исходники!",
+      "html": "Сохраняй<br>блять<br>исходники!",
+      "tags": [
+        "design",
+        "coding",
+        "markup",
+        "photo",
+        "frontend",
+        "office"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "3317",
+      "text": "Техника, блять — не главное!",
+      "html": "Техника,<br><span class=\"dash\">блять&nbsp;—</span><br>не&nbsp;главное!",
+      "tags": [
+        "photo",
+        "music"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "1878",
+      "text": "Сначала сбрось блять настройки!",
+      "html": "Сначала<br>сбрось<br>блять<br>настройки!",
+      "tags": [
+        "coding",
+        "markup",
+        "photo",
+        "frontend"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "141",
+      "text": "Ищи блять контраст!",
+      "html": "Ищи<br>блять<br>контраст!",
+      "tags": [
+        "design",
+        "photo",
+        "music"
+      ],
+      "conclusions": []
+    },
+    {
+      "id": "228",
+      "text": "Будь блять искренним!",
+      "html": "Будь<br>блять<br>искренним!",
+      "tags": [
+        "photo",
+        "text",
+        "music",
+        "life",
+        "for-him",
+        "love",
+        "kids"
+      ],
+      "conclusions": []
+    }
+  ]
+}
